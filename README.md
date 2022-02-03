@@ -7,7 +7,7 @@ This is a simple tool for laying out and using waypoints in Unity. It also featu
 You can install via git url by adding this entry in your manifest.json
 
 ```json title="Packages/manifest.json"
-"jp.tarakokutibiru.waypointmaker": "https://github.com/tarakoKutibiru/WaypointMaker.git?path=Assets/WaypointMaker#v0.0.1"
+"jp.tarakokutibiru.waypointmaker": "https://github.com/tarakoKutibiru/WaypointMaker.git?path=Assets/WaypointMaker#v0.0.2"
 ```
 
 # Use
