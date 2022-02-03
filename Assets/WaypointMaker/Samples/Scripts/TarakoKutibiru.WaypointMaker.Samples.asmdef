@@ -1,0 +1,16 @@
+{
+    "name": "TarakoKutibiru.WaypointMaker.Samples",
+    "rootNamespace": "",
+    "references": [
+        "TarakoKutibiru.WaypointMaker"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
