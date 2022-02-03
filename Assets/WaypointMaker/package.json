@@ -1,0 +1,7 @@
+{
+    "name": "jp.tarakokutibiru.waypointmaker",
+    "version": "0.0.1",
+    "displayName": "Waypoint Maker",
+    "description": "This is a simple tool for laying out and using waypoints in Unity.",
+    "unity": "2020.3"
+}
