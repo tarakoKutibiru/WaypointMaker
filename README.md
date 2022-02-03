@@ -2,7 +2,15 @@
 
 This is a simple tool for laying out and using waypoints in Unity. It also features an option to quickly lay out a simple grid of connected nodes or a street type grid layout of nodes.
 
-### Use
+# Installation
+
+You can install via git url by adding this entry in your manifest.json
+
+```json title="Packages/manifest.json"
+"jp.tarakokutibiru.waypointmaker": "https://github.com/tarakoKutibiru/WaypointMaker.git?path=Assets/WaypointMaker#v0.0.1"
+```
+
+# Use
 
 Add `Component > Navigation > WaypointMaker Path` component to a GameObject.
 
@@ -11,12 +19,12 @@ Now you can hold `Ctrl+Help` and click in the scene to add nodes to the scene. Y
 Hold `Shift` and drag over several nods to select them all. Use the movement gizmo to move selected nodes. Use `Del` to delete selected nodes.
 
 
-### Example
+# Example
 
 The sample scene shows the use of a grid of nodes and includes path finding in the `vehicle` component (script) to show how you might possibl use and navigate the grid of nodes.
 
 
-### Code
+# Code
 
 The `Path` component simply holds a list of all the nodes. To find a node (PathNode) you may use `Path.GetNode(node_id)` where `node_id` would be the same as the `id` presented in the Inspector when you have a node selected.
 
